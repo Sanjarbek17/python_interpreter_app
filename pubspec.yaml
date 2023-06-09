@@ -38,6 +38,8 @@ dependencies:
   flutter_code_editor: ^0.3.0
   flutter_highlight: ^0.7.0
   highlight: ^0.7.0
+  http: ^0.13.6
+  google_fonts: ^4.0.4
 
 dev_dependencies:
   flutter_test:
