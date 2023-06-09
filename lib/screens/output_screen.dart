@@ -13,11 +13,13 @@ class OutputPage extends StatelessWidget {
     return Container(
       height: 200,
       color: Colors.black87,
-      child: Center(
+      padding: const EdgeInsets.all(8),
+      child: SingleChildScrollView(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const Text('Output', style: TextStyle(color: Colors.white)),
-            const Divider(),
+            const Divider(color: Colors.white),
             Text(output, style: const TextStyle(color: Colors.white)),
           ],
         ),
