@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class OutputPage extends StatelessWidget {
-  const OutputPage({
+class OutputWidget extends StatelessWidget {
+  const OutputWidget({
     super.key,
     required this.output,
   });

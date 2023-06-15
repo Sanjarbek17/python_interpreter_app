@@ -10,7 +10,7 @@ import 'package:highlight/languages/python.dart';
 // improt http
 import 'package:http/http.dart' as http;
 
-import 'output_screen.dart';
+import '../widgets/output_widget.dart';
 
 class EditorPage extends StatefulWidget {
   const EditorPage({super.key});
@@ -51,7 +51,7 @@ class _EditorPageState extends State<EditorPage> {
             showModalBottomSheet(
               context: context,
               builder: (context) {
-                return OutputPage(output: output);
+                return OutputWidget(output: output);
               },
             );
           }
